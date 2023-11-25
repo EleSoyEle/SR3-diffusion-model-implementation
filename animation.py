@@ -67,6 +67,7 @@ def animate(i):
     t = i%(infer_steps+1)
     imk = tf.squeeze(preds[t])
     ax.clear()
+    ax.title("video_{}".format(out_path))
     ax.axis("off")
     ax.imshow(imk)
 
