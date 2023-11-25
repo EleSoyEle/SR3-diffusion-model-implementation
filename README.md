@@ -20,6 +20,8 @@ File structure
 |animation.py| Create a video of how you are reducing noise to the image|
 
 ## Test
+In order to test the model, you need the checkpoints, which are at: <https://drive.google.com/drive/folders/1f8nCr30DnkJaPPwX4iiNlx0eMJzhQm3P?usp=drive_link>
+
 ### Use of test.py
 The way to use the file is:
 ```bash
@@ -43,3 +45,4 @@ Example:
 ```bash
 python3 animation.py -p image.jpg -i 100 -o out_img.jpg -v video.mp4
 ```
+
