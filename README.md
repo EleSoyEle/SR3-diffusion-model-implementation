@@ -1,7 +1,12 @@
 # SR3-diffusion-model-implementation
 Implementation of SR3 to increase the resolution of images from 64x64 to 512x512 with images of cats.
 
-
+<picture>
+<img src="image.png" width=250>
+</picture>
+<picture>
+<img src="out_image.jpg" width=250>
+</picture>
 
 The comments are in Spanish.
 
@@ -27,6 +32,8 @@ python3 test.py -p image.jpg -i 100 -o out_image.jpg
 ```
 
 ### Use of animation.py
+<video src="video.mp4"></video>
+
 The way to use the file is: 
 ```bash
 python3 animation.py -p <path image> -i <inference steps> -t <steps model> -o <out image> -v <out video>
