@@ -22,6 +22,8 @@ File structure
 ## Test
 In order to test the model, you need the checkpoints, which are at: <https://drive.google.com/drive/folders/1f8nCr30DnkJaPPwX4iiNlx0eMJzhQm3P?usp=drive_link>
 
+They should be in a folder called checkpoints
+
 ### Use of test.py
 The way to use the file is:
 ```bash
@@ -34,7 +36,8 @@ python3 test.py -p image.jpg -i 100 -o out_image.jpg
 ```
 
 ### Use of animation.py
-<video src="video.mp4"></video>
+[![-](out_image.jpg)](video.mp4)
+
 
 The way to use the file is: 
 ```bash
