@@ -36,7 +36,7 @@ python3 test.py -p image.jpg -i 100 -o out_image.jpg
 ```
 
 ### Use of animation.py
-[![-](out_image.jpg)](video.mp4)
+[![-](out_image.jpg)](GIF.gif)
 
 
 The way to use the file is: 
