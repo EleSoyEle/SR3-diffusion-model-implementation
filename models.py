@@ -46,6 +46,8 @@ def ResidualBlock(filters,ni=0):
     else:
         return Model(inp,x)
     
+#Se pueden modificar las capas internas
+#En particular, se pueden añadir mas bloques residuales
 def Net():
     xi = Input(shape=[512,512,3])
     yt = Input(shape=[512,512,3])
